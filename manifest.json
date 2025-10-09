@@ -1,7 +1,9 @@
 {
+  "lang": "en",
   "short_name": "",
   "name": "About Me",
   "author": "Ivan Luka Špoljar",
+  "description": "Software developer driven by continuous learning, with a focus on technical and soft skills.",
   "icons": [
     {
       "src": "favicon.ico",
@@ -9,18 +11,25 @@
       "type": "image/x-icon"
     },
     {
-      "src": "account_box.png",
+      "src": "logo.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "account_box.png",
+      "src": "logo.png",
       "type": "image/png",
-      "sizes": "500x500"
+      "sizes": "512x512"
     }
   ],
   "start_url": ".",
   "display": "standalone",
+  "orientation": "portrait",
   "theme_color": "#4ebeff",
-  "background_color": "#4ebeff"
+  "background_color": "#4ebeff",
+  "categories": [
+    "lifestyle",
+    "productivity",
+    "education",
+    "portfolio"
+  ]
 }
